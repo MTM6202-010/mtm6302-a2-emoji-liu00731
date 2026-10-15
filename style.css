@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eed7d7;
+}
+
+.emoji {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.emoji-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #f6b3b3;
+}
+
+.emoji-character {
+  font-size: 4rem;
+}
+
+.emoji-code {
+  font-size: 1rem;
+}
